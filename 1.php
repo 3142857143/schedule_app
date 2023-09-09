@@ -709,31 +709,6 @@ $GLOBALS['5_2'] = $row['timeline_5_2'];
   </div>
 </div>
 </div>
-<!--
-<div id="form1">
-	<div id="shape1_2">
-	</div>
-	<label id="input1_1_1">Enter Subject</label>
-	<input type="text" name="" id="input1_1">
-	<label id="input1_2_1">To do:</label>
-	<textarea id="input1_2"> </textarea>
-	<button onclick="submit1()" id="enter">Enter
-	</button>
-</div>
-
-
-
-<div id="form2">
-	<div id="shape2_2">
-	</div>
-	<label id="input2_1_1">Enter Subject</label>
-	<input type="text" name="" id="input2_1">
-	<label id="input2_2_1">To do:</label>
-	<textarea id="input2_2"> </textarea>
-	<button onclick="submit2()" id="enter">Enter
-	</button>
-</div>
-!-->
 <form id="form1" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
   <div id="shape1_2">
 	</div>
@@ -792,37 +767,5 @@ $GLOBALS['5_2'] = $row['timeline_5_2'];
   <button type="submit" id="enter">Enter
 	</button>
 </form>
-<!--<div id="form3">
-	<div id="shape2_2">
-	</div>
-	<label id="input2_1_1">Enter Subject</label>
-	<input type="text" name="" id="input3_1">
-	<label id="input2_2_1">To do:</label>
-	<textarea id="input3_2"> </textarea>
-	<button onclick="submit3()" id="enter">Enter
-	</button>
-</div>!-->
-<!--<div id="form4">
-	<div id="shape2_2">
-	</div>
-	<label id="input2_1_1">Enter Subject</label>
-	<input type="text" name="" id="input4_1">
-	<label id="input2_2_1">To do:</label>
-	<textarea id="input4_2"> </textarea>
-	<button onclick="submit4()" id="enter">Enter
-	</button>
-</div>
-!-->
-<!--<div id="form5">
-	<div id="shape2_2">
-	</div>
-	<label id="input2_1_1">Enter Subject</label>
-	<input type="text" name="" id="input5_1">
-	<label id="input2_2_1">To do:</label>
-	<textarea id="input5_2"> </textarea>
-	<button onclick="submit5()" id="enter">Enter
-	</button>
-</div>
-!-->
 </body>
 </html>
